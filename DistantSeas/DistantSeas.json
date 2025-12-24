@@ -7,6 +7,7 @@
   "IconUrl": "https://raw.githubusercontent.com/NotNite/DistantSeas/main/Data/icon.png",
   "RepoUrl": "https://github.com/NotNite/DistantSeas",
   "ApplicableVersion": "any",
+  "DalamudApiLevel": 14,
   "Tags": [
     "ocean",
     "fishing"

@@ -33,6 +33,8 @@ public sealed class Plugin : IDalamudPlugin {
     [PluginService] public static ITextureProvider TextureProvider { get; private set; } = null!;
     [PluginService] public static IGameInteropProvider GameInteropProvider { get; private set; } = null!;
     [PluginService] public static IPluginLog PluginLog { get; private set; } = null!;
+	[PluginService] public static IObjectTable ObjectTable { get; private set; } = null!;
+    [PluginService] public static IPlayerState PlayerState { get; private set; } = null!;
 
     public static IStateTracker NormalStateTracker = null!;
     public static DebugStateTracker DebugStateTracker = null!;
